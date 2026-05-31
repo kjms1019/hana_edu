@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"c:\\\\dev\\\\GPT_AGENT\\\\venv\\\\Scripts\\\\Activate.ps1\")",
+      "PowerShell(c:\\\\dev\\\\GPT_AGENT\\\\venv\\\\Scripts\\\\pip.exe install google-generativeai python-dotenv)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\dev\\\\GPT_AGENT\\\\streamlit\")",
+      "PowerShell(c:\\\\dev\\\\GPT_AGENT\\\\venv\\\\Scripts\\\\pip.exe install streamlit)",
+      "PowerShell(git -C c:\\\\dev\\\\GPT_AGENT status 2>&1)",
+      "PowerShell(gh --version 2>&1)"
+    ]
+  }
+}
